@@ -66,3 +66,19 @@ footer{
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width:768px){
+  main{
+    display: block;
+    width: 100%;
+  }
+
+  .main-contents{
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .main-img1,.main-img2,.main-img3{
+  width: 100%;
+  }
+}
